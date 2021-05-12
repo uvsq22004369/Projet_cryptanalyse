@@ -1,18 +1,25 @@
+####################
+# Océane Machado TD2 
+# 22004369
+#################################################################################################################################
+#https://github.com/uvsq22004369/Projet_cryptanalyse.git
+#################################################################################################################################
 #Cryptanalyse
+
 #Votre mission, si vous l'acceptez, est de déchiffrer 4 textes de difficulté croissante en vous aidant d'un programme 
 #python que vous allez écrire.
-#
+
 #Les fichiers ont été cryptés avec des méthodes données en cours.
 #Les fichiers chiffrés contiennent des textes en ASCII. Une fois déchiffrés ils vous donneront des informations.
 #Vous devez vous baser sur les fréquences d'apparition des lettres en français (et des paires de lettres) pour casser les codes. 
 #Faire une fonction de calcul pour vous aider.
-#
+
 #Penser à réutliser le code du td de cryptographie comme base de travail.
-#
+
 #Le code de votre programme doit être sur github et vous fournirez un lien vers votre projet github avec le code et le résultat 
 #du décodage en le déposant sur Moodle avant le mercredi 12 mai.
 #Une soutenance sera organisée le 17 mai.
-
+################################################################################################################################
 import tkinter as tk
 
 texte1 = "kd oqnbgzhm ehbghdq ztqz tm bncd ozq rtarshstshnm zkogzadshptd: bgzptd kdssqd drs qdlokzbdd ozq tmd ztsqd. tshkhrdq kz eqdptdmbd cdr kdssqdr ontq cdbncdq kd ldrrzfd."
