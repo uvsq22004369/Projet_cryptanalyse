@@ -42,7 +42,46 @@ texte3 = "dceuq e n'ehfp cg p'kyhhep uqfw cgiy citudm c gzudiq ni ezhd px c jhpt
 #Bravo a l'aide de l'indice vous avez reussi a casser ce code et a finir ce devoir. 
 #Le dernier texte est pour les braves, regardez vous dans un miroir, en etes vous un ?
 
-texte4 = "jeqeqecvnf suozvb jfk muj  dfjr fmy rvuqsk ve  itajtd mifwz nnrt  imtrvp zuh srzmzbqz tepr zn  tmsnirt imtrvp nec hw  dzpqj tjf pdecpr zl jr  ptejnt ekpb iu b  iiuyu iy ijz surg rjs ttsn  votp ac hw rzpuen jozw  rvwdvx jbo nirscyjv fi  svmkyw ve iaflss yie te  teffvv'u riznxjzvv jfk  nelrhtjrk dh sivdvjvve  yi cvb à jffrds tdp  rvwdv sebr onvnqsy zvp  zuhjwiM le wmifo wiezib nec  triot qmjvr'c onrwz  memfqg srq wdaietsq vk"
+texte4 = {"jeqeqecvnf suozvb jfk muj"
+  "dfjr fmy rvuqsk ve"  
+  "itajtd mifwz nnrt"  
+  "imtrvp zuh srzmzbqz tepr zn"  
+  "tmsnirt imtrvp nec hw"  
+  "dzpqj tjf pdecpr zl jr"  
+  "ptejnt ekpb iu b"  
+  "iiuyu iy ijz surg rjs ttsn"  
+  "votp ac hw rzpuen jozw"  
+  "rvwdvx jbo nirscyjv fi"  
+  "svmkyw ve iaflss yie te"  
+  "teffvv'u riznxjzvv jfk"  
+  "nelrhtjrk dh sivdvjvve"  
+  "yi cvb à jffrds tdp"  
+  "rvwdv sebr onvnqsy zvp"  
+  "zuhjwiM le wmifo wiezib nec"  
+  "triot qmjvr'c onrwz"  
+  "memfqg srq wdaietsq vk"
+}
+#mettre le texte en mirroir : 
+
+#jum kfj bvzous fnvceqeqej
+#ev ksquvr ymf rjfd
+#trnn zwfim dtjati
+#nz rpet zqbzmzrs huz pvrtmi
+#wh cen pvrtmi trinsmt
+#rj lz rpcedp fjt jqpzd 
+#b ui bpke tnjetp
+#nstt sjr grus zji yi uyuii
+#wzoj neupzr wh ca ptov
+#if vjycsrin obj xvdwvr
+#et eiy sslfai ev wykmvs
+#kfj vvzjxnzir u'vvffet
+#evvjvdvis hd krjthrlen
+#pdt sdrffj à bvc iy
+#pvz ysqnvno rbes vdwvr
+#cen bizeiw ofimw el Miwjhuz
+#zwrno c'rvjmq toirt
+#kv qsteiadw qrs gqfmem  
+    
 
 
 alphabet=[]
@@ -55,18 +94,7 @@ def vide():
     for x in alphabet :
         x[1]=0.0
 
-def nbrOccur(texte):
-    vide()
-    for c in texte:
-        if 97 <= ord(c) <= 122: #Vérifier si c'est une lettre
-            alphabet[ord(c)-97][1] += round(1/len(texte)*100, 3)
-    print(alphabet)
 
-
-print(nbrOccur(texte1))
-print(nbrOccur(texte2))
-print(nbrOccur(texte3))
-print(nbrOccur(texte4))
 alphabet_vide()
 
 
@@ -101,32 +129,33 @@ def chiffre_xor(lettre_message,lettre_cle):
     return (chr(ord(lettre_message) ^ ord(lettre_cle)))
 
 
-def decodage_substitution(txt):
+def decodage_substitution(texte):
     resultat.delete(0, tk.END)
     specialChars = "!#$%^&*()" 
     for specialChar in specialChars:
-       txt = txt.replace(specialChar, "")
-    print(txt) # A,Quick,brown,fox,jumped,over,the,lazy,dog
-    txt = txt.replace(",", " ")
-    print(txt) # A Quick brown fox jumped over the lazy dog
-    str.replace('x','e')
-    str.replace('g','l')
-    str.replace('i','s')
-    str.replace('o','r')
-    str.replace('u','t')
-    str.replace('y','u')
-    str.replace('d','n')
-    str.replace('s','o')
-    str.replace('v','c')
-    str.replace('k','i')
-    str.replace('q','p')
-    str.replace('l','h')
-    str.replace('n','a')
-    str.replace('w','f')
-    str.replace('c','d')
-    str.replace('f','m')
-    str.replace('m','g')
-    str.replace('a','z')
+       texte = texte.replace(specialChar, "")
+    print(texte) # A,Quick,brown,fox,jumped,over,the,lazy,dog
+    texte = texte.replace(",", " ")
+    print(texte) # A Quick brown fox jumped over the lazy dog
+    for c in texte : 
+       str.replace('x','e')
+       str.replace('g','l')
+       str.replace('i','s')
+       str.replace('o','r')
+       str.replace('u','t')
+       str.replace('y','u')
+       str.replace('d','n')
+       str.replace('s','o')
+       str.replace('v','c')
+       str.replace('k','i')
+       str.replace('q','p')
+       str.replace('l','h')
+       str.replace('n','a')
+       str.replace('w','f')
+       str.replace('c','d')
+       str.replace('f','m')
+       str.replace('m','g')
+       str.replace('a','z')
     resultat.insert(0, dec_texte(entree_texte.get()))
 
 
