@@ -1,9 +1,8 @@
 # Projet_cryptanalyse
 
 TEXTE 1
-############################################################################################################################################
+
 kd oqnbgzhm ehbghdq ztqz tm bncd ozq rtarshstshnm zkogzadshptd: bgzptd kdssqd drs qdlokzbdd ozq tmd ztsqd. tshkhrdq kz eqdptdmbd cdr kdssqdr ontq cdbncdq kd ldrrzfd.
-############################################################################################################################################
 
 Pour déchiffrer le texte 1 il vous faut copier coller le texte dans le 1er Label.
 Ainsi que rentrer la clé   a   dans le second Label (servant à la clé de décriptage). 
@@ -18,9 +17,9 @@ utiliser la frequence des lettres pour decoder le message.
 
 
 TEXTE 2
-###############################################################################################################################################
+
 gx qosvlnkd wkvlkxo xiu vscx qno yd fsu cx qniix cx unkggx kdvsddyx xu vsdukxdu g'kdckvx. gxi gxuuoxi cy fsu cx qniix qxofxuuxdu cx cxvngxo gxi gxuuoxi cy fxiinmx sokmkdng fscygs 26. ixygxi gxi gxuuoxi cx n n a isdu vlkwwoxxi.
-###############################################################################################################################################
+
 Pour déchiffrer le texte il vous faudra entrer le texte 2 dans le 1er Label.
 Aucune clé  n'est a rentrer car il s'agit d'une substitution donc le second Label reste vide. 
 Cette substitution a lieu de telle sorte :
@@ -36,9 +35,8 @@ Seules les lettres de a à y sont chiffrées
 
 
 TEXTE 3
-################################################################################################################################################
+
 dceuq e n'ehfp cg p'kyhhep uqfw cgiy citudm c gzudiq ni ezhd px c jhptv ep cggsht. kg hdtymdt xdzei gdx rzyq wir mvzxpw, cifcchdb znwd ccyw wy lkcsht, dp isgd uqfw wy ?
-################################################################################################################################################
 
 Pour déchiffrer le texte 3 il vous faut copier coller le texte dans le 1er Label.
 Ainsi que rentrer la clé   xova   dans le second Label (servant à la clé de décriptage). 
@@ -56,7 +54,7 @@ Le dernier texte est pour les braves, regardez vous dans un miroir, en etes vous
 
 
 TEXTE 4 
-#############################
+
 jeqeqecvnf suozvb jfk muj
 dfjr fmy rvuqsk ve
 itajtd mifwz nnrt  
@@ -75,7 +73,6 @@ rvwdv sebr onvnqsy zvp
 zuhjwiM le wmifo wiezib nec 
 triot qmjvr'c onrwz
 memfqg srq wdaietsq vk
-##############################
 
 Pour commencer il faut mettre le texte en mirroir mettre le texte en mirroir : 
 
